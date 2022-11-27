@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.paisa{
+  font-size: 32px;
+  color:lightskyblue;
+}
+.story{
+  margin-left: 35rem;
+  margin-top: 85rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:lightslategray;
+}
+.success{
+  background-color: green;
+  color:white;
+  border-radius: 10px;
+  border:4px solid green;
+}
+.danger{
+  background-color: red;
+  color:white;
+  border-radius: 10px;
+  border:4px solid red;
+}
+.info{
+  background-color:blue;
+  color:white;
+  border-radius: 10px;
+  border:4px solid blue;
+}
+article {
+  width: 60%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span {
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.total {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+  font-size: 2rem;
+  color: skyblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
